@@ -1,0 +1,141 @@
+.thanks {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FEBF54;
+    height: 100%;
+    position: relative;
+}
+
+.path {
+    /*   display:none; */
+    z-index: 2;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    fill: none;
+    stroke: #fff;
+    animation: dash 15s infinite linear forwards;
+    -webkit-animation: dash 15s infinite linear forwards;
+}
+
+.shadow {
+
+    z-index: 2;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    fill: none;
+    stroke: #F0A529;
+    animation: dash 15s infinite linear forwards;
+    -webkit-animation: dash 15s infinite linear forwards;
+}
+
+.pt1{
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000; 
+    fill:none;
+   stroke: #fff;
+        animation: dash 8s 2s infinite linear forwards;
+     -webkit-animation:  dash 8s 2s infinite linear forwards;
+ }
+
+ .circleH{
+    stroke-dasharray: 3000;
+stroke-dashoffset: 3000; 
+fill:none;
+stroke: #fff;
+    animation: dash 5s 1s infinite linear forwards;
+ -webkit-animation:  dash 5s 1s infinite linear forwards;
+}
+.shadow-circleH{
+    stroke-dasharray: 3000;
+stroke-dashoffset: 3000; 
+fill:none;
+stroke: #fff;
+      animation: dash 5s 5s infinite linear forwards;
+ -webkit-animation:  dash 5s 1s infinite linear forwards;
+}
+.ThankA{
+    stroke-dasharray: 3000;
+stroke-dashoffset: 3000; 
+fill:none;
+stroke: #fff;
+      animation: dash 5s 1s infinite linear forwards;
+ -webkit-animation:  dash 5s 1s infinite linear forwards;
+}
+
+.shadow-ThankA{
+      animation: dash 5s 5s infinite linear forwards;
+ -webkit-animation:  dash 5s 1s infinite linear forwards;
+}
+.cicleK{
+    stroke-dasharray: 3000;
+stroke-dashoffset: 3000; 
+fill:none;
+stroke: #fff;
+      animation: dash 15s 5s infinite linear forwards;
+ -webkit-animation:  dash 15s 5s infinite linear forwards;
+}
+
+.shadow-cicleK{
+      animation: dash 15s 5s infinite linear forwards;
+ -webkit-animation:  dash 15s 5s infinite linear forwards;
+}
+
+.circleO{
+    stroke-dasharray: 3000;
+stroke-dashoffset: 3000; 
+fill:none;
+stroke: #fff;
+      animation: dash 15s 5s infinite linear forwards;
+ -webkit-animation:  dash 15s 5s infinite linear forwards;
+}
+.shadow-circleO{
+      animation: dash 15s 5s infinite linear forwards;
+ -webkit-animation:  dash 15s 5s infinite linear forwards;
+}
+/* #Layer_2{
+display: none;
+z-index: 1;
+} */
+
+/* .layer2Path{
+ z-index: 1;
+  stroke-dasharray: 3000;
+stroke-dashoffset: 3000; 
+fill:none;
+stroke: #fff;
+  animation: dash 2s infinite linear forwards;
+ -webkit-animation:  dash 2s infinite linear forwards;
+} */
+
+@keyframes dash {
+to {
+ stroke-dashoffset: 0;
+}
+}
+
+@-webkit-keyframes dash {
+ to {
+     stroke-dashoffset: 0;
+ }
+}
+
+.orderplaced {
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    top: 100px;
+    /* border: solid 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.orderplaced h1 {
+    font-size: 5rem;
+    color: rgb(43, 31, 9);
+    outline-color: rgb(125, 43, 43);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    
+}
